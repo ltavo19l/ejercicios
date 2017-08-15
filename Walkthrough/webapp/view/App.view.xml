@@ -1,0 +1,40 @@
+<mvc:View
+   controllerName="sap.ui.demo.wt.controller.App"
+   xmlns="sap.m"
+   xmlns:mvc="sap.ui.core.mvc"
+   height="100%">
+    
+    
+  
+<!--     title="Ejercicio2"
+	class="sapUiContentPadding" >
+         <content>-->
+      <Panel>
+          <VBox>
+            
+            <Button type="Reject" text="Rechazar" press="onPress" />
+            <Button icon="sap-icon://action" press="onPress" ariaLabelledBy="actionButtonLabel"/>
+            <Input
+            value="{/cliente/0/nombre}"
+            description="Hello {/cliente/0/nombre} {/cliente/0/apellido}"
+            valueLiveUpdate="true"
+            width="60%"/>
+          
+           </VBox>
+            <VBox>
+          
+            <Button type="Reject" text="Rechazar" press="onPress" />
+            <Button icon="sap-icon://action" press="onPress" ariaLabelledBy="actionButtonLabel"/>
+            <Input
+            value="{/cliente/0/nombre}"
+            description="Hello {/cliente/0/nombre} {/cliente/0/apellido}"
+            valueLiveUpdate="true"
+            width="60%"/>
+          
+           </VBox>
+      </Panel>    
+    
+<!--          </content>
+ 	</Page>
+-->
+</mvc:View>
